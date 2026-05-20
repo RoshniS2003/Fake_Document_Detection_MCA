@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Doc Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="loginBox">
+        <h2>Login</h2>
+        <input type="text" id="user" placeholder="Username">
+        <input type="password" id="pass" placeholder="Password">
+        <button onclick="login()">Login</button>
+        <p id="msg"></p>
+    </div>
+
+    <div id="mainBox">
+        <h2>Upload Document</h2>
+        <input type="file" id="file">
+        <button onclick="check()">Check</button>
+        <h3 id="result"></h3>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

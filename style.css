@@ -1,0 +1,42 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    padding-top: 100px;
+    background: #f0f0f0;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+#loginBox,
+#mainBox {
+    background: lightgray;
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+    box-shadow: 0 10px 32px black;
+}
+
+#mainBox {
+    display: none;
+}
+
+input,
+button {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(6, 6, 6, 0.231);
+}
