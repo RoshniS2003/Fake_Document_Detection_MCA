@@ -3,10 +3,10 @@ function login() {
     let p = document.getElementById("pass").value;
     let msg = document.getElementById("msg");
 
-    if(u =="rani" && p == "123") {
+    if(u =="roshni" && p == "123") {
         document.getElementById("loginBox").style.display = "none";
         document.getElementById("mainBox").style.display = "block";
-        msg.innerText = ""; // success par msg clear
+        msg.innerText = ""; 
     } else {
         msg.innerText = "Wrong username or password"; 
         msg.style.color = "red";
